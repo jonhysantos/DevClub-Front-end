@@ -1,0 +1,18 @@
+/*
+    font-weight pode ser lighter / bold / bolder = 100 / 500 / 900
+*/
+
+p {
+    color: #000090;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    line-height: 50px; /*espaçamento entre linhas*/
+    letter-spacing: 50px; /*espaçamento entre letras*/ 
+    word-spacing: 40px; /*espaçamento entre palavras*/ 
+    
+
+
+}
+
