@@ -1,0 +1,18 @@
+*{
+    /*Selecione todos os elementos*/
+}
+
+#titulo {
+    background-color: green;
+    color: white;
+}
+
+.paragrafo{
+    background-color: aqua;
+}
+
+
+.botao{
+    background-color: blue;
+    color: white;
+}

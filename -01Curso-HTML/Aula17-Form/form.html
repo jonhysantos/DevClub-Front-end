@@ -1,0 +1,23 @@
+<!--
+
+Form
+captura dados de entrada
+
+input -> dados de entrada
+
+Action -> define para qual url será enviada os dados, vazio irá pra mesma url
+
+Method
+    GET
+    POST
+
+
+-->
+<form action="" method="get" enctype="multipart/form-data"> <!--Servidor ? estou enviando não só dados e também video/fotos ou arquivos-->
+    <label for="email">E-mail: </label>
+    <input type="email" name="email" id="email" autocomplete="email">
+    <label for="password">Senha: </label>
+    <input type="password" name="password" id="password" autocomplete="current-password">
+    <button type="submit">Enviar</button>
+    <button type="reset">Limpar</button>
+</form>
