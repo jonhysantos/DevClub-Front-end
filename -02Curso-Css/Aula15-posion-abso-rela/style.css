@@ -1,0 +1,49 @@
+/*
+    Vamos falar de position
+
+    Position: static (padrão) - não aceitam position de top,botton,left e right
+    Position: fixed - fixa o elemento na tela
+    Position: Stick - Age como um adesivo, fixa um elemento so onde eu determinar
+    Position: Relative - Posição relativa a posição inicial dele
+    Position: Absolute - Posição absoluta (fixa) a algum elemento ou a pagina
+                        Se não tiver pai / pai for Static -> posiciona referene a pagina
+                        Se o pai NÃO for static -> posiciona referente ao pai
+
+    Propriedades:
+    Top
+    botton
+    left
+    Right
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 200vw;
+    height: 200vh;
+}
+
+.dad{
+    opacity: 0.5;
+    position: relative;
+    top: 20px;
+    width: 350px;
+    height: 350px;
+    background-color: #ff1396;
+}
+
+.son{
+    height: 150px;
+    width: 150px;
+    background-color: #ffff00;
+}
+
+.uncle{
+    position: relative;
+    top: 30px;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    border: 1px solid red;
+    color: blue;
+}
+
+input::placeholder{
+    color: #ff1396;
+}
+
+p::first-letter{
+    color: #ff1396;
+}
+
+p::first-line{
+    color: green;
+}
+
+a{
+    color: blue;
+}
+
+a::before{
+    content: '->';
+}
+
+a::after{
+    content: '<-'; /*Da pra colocar emoticon, letras e etc..*/
+}
