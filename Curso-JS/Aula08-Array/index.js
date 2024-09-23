@@ -1,4 +1,4 @@
-// Array = vero \ matris
+// Array = vetor \ matris
 
 
 const users = [
