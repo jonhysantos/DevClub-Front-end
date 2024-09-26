@@ -11,6 +11,8 @@ function convertValues(){
     const dolarToday = 5.2
     const euroToday = 6.2
 
+    
+
     if (currencySelect.value == 'dolar'){
         // Se o select estiver selecionado o valor de dolar, entre aqui
         currencyValueConverted.innerHTML = new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',}).format(inputCurrencyValue / dolarToday)

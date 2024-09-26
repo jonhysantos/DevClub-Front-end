@@ -9,25 +9,29 @@
 }
 
 body {
-    background-color: #8a51fc;
+    background:  url(./assets/img/logo.webp) ;
+    background-size: contain;
+    
 }
-
-.logo {
-    width: 300px;
-    display: block;
-    margin: 20px auto;
+h1 {
+    text-align: center;
+    background-color: #772fd3;
+    color: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 main {
     width: 375px;
-    background-color: #f4f4f4;
+    background-color: #fffffff9;
     border-radius: 20px;
     margin: 0 auto;
     /* padding: 44px;  aplica para todos os lados*/
     /* padding: 44px 24px; Aplica 1cima e baixo / 2 dos lados*/
     /* padding: 44px 24px 23px ; cima esquerda,direita baixo */
     padding:44px 24px 23px ;
-    margin: 0 auto 40px;
+    margin-top: 5%;
+    filter: drop-shadow(0 0 2em #f4f4f4);
 }
 
 label {
@@ -61,6 +65,7 @@ button {
     font-size: 18px;
     font-weight: 700;
     cursor: pointer;
+    
 }
 
 button:hover {
@@ -79,6 +84,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .arrow-img {
