@@ -17,4 +17,8 @@
     !false = true
 
     Operadores de typeof e delete
+
+    Operador ternário
+
+    ? (se) : (se não)
 */

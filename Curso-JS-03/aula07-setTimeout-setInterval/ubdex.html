@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chronometer</title>
+</head>
+<body>
+    <h1>0</h1>
+    <button onclick="start()">Start</button>
+    <button onclick="stop()">Stop</button>
+</body>
+<script>
+    let Number = 0
+    let chron 
+    let h1 = document.querySelector('h1');
+
+    function start(){
+        chron = setInterval(function(){
+            Number++
+            h1.innerHTML = Number
+        },1000) // 1000 1 milisegundos equivale a 1 segundo
+    }
+
+    function stop(){
+        clearInterval(chron)
+    }
+</script>
+</html>
