@@ -41,4 +41,14 @@ console.log(finalValueWithDiscount)
 // let precoFinal = preco - desconto
 
 // console.log(desconto)
-// console.log(precoFinal)
+// console.log(precoFinal),
+
+
+
+
+// A elas (meninas)
+
+// _Porque pode é no singular, e no trecho podem ,se refere no plural 
+
+let total = 650 + 1075 +1014
+console.log(total)
