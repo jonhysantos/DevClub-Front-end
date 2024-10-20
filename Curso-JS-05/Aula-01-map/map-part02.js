@@ -8,7 +8,7 @@ const list = [
     {Name:'Jonhy',vip: true},
     {Name:'Priscila,',vip: false},
     {Name:'Rúbia',vip: false},
-    {Name:'Cecíclia',vip: false},
+    {Name:'Cecília',vip: false},
     {Name:'Elaine',vip: true}
 ]
 
