@@ -1,21 +1,3 @@
-/*
-    REDUCE
-    Retorn um valor (pode ser um novo array, um objeto, string, number, etc...)
-    aceita 4 parâmetros 
-    - acumulador
-    - valor atual
-    - index
-    - array completo
-*/
-
-const list = [1,2,3,4,5,6,7]
-
-const sum = list.reduce((acumulador,valorAtual) => {
-    return acumulador + valorAtual
-}, 0)
-
-console.log(sum)
-
 const companies = [
     {name:'samsung',marketValue: 50,CEO:'Kim hyum suk',foundedOn:1938},
     {name:'Microsoft',marketValue: 415,CEO:'Satya Nadella',foundedOn:1975},
@@ -25,11 +7,11 @@ const companies = [
     {name:'Apple',marketValue:845,CEO:'Tim cook',foundedOn:1976},
 ]
 
-const finalValue = companies.reduce((acumulator,valueActual) => {
+const valueTotal = companies.reduce((acumulator,valueActual) => {
     return acumulator + valueActual.marketValue
 }, 0)
 
-console.log(finalValue)
+console.log(valueTotal);
 
 const cart = [
     {productName:'Abóbora',valuePerKg: 5,kg: 1},
@@ -39,9 +21,9 @@ const cart = [
     {productName:'Morango',valuePerKg: 11.9, kg: 3},
 ]
 
-const priceFinal = cart.reduce((acumulator,valueActual) => {
-    const result =  valueActual.valuePerKg * valueActual.kg
+const totalCart = cart.reduce((acumulator,valueActual) => {
+    const result = valueActual.valuePerKg * valueActual.kg
     return acumulator + result
 }, 0)
 
-console.log(priceFinal)
+console.log(totalCart)

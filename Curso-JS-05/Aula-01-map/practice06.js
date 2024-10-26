@@ -24,3 +24,12 @@ const students = [
     {name:'iza',age:'37',test:2},
 ]
 
+const testResult = students.map(user => {
+    return {
+        name:user.name,
+        age:user.age,
+        result:user.test >= 5 ? 'Approved' : 'Failed'
+    }
+})
+
+console.log(testResult)
