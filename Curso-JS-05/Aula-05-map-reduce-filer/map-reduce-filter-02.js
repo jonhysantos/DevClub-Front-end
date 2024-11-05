@@ -59,7 +59,7 @@ const gamesOnPriceHorror = games.map(add10Percent)
     .filter(filterPriceAndGenero)
     .reduce(reducePriceFinal,0)
 
-console.log(gamesOnPriceHorror)
+console.log(gamesOnPriceHorror);
 
 
 
