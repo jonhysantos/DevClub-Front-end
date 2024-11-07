@@ -8,11 +8,8 @@ const games = [
 ]
 
 const addDescount = (game => {
-    return {
-        game:game.price = game.price - (10 /100) * game.price,
-        genero:game.genero,
-        price:game.price,
-    }
+        game.price = game.price + (game.price * 5)
+    return game
 })
 
 const filterGames = (game => game.genero === 'horror' && game.price < 100)
@@ -22,7 +19,5 @@ const reducePriceFinal = ((acc,valueActual) => valueActual.price + acc)
 const gamesGetDescount = games.map(addDescount)
     .filter(filterGames)
     .reduce(reducePriceFinal,0)
-
-
 
 console.log(gamesGetDescount)
