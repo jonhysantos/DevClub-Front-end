@@ -9,12 +9,14 @@ const games = [
 
 const addDescount = (game => {
     return {
+        name:game.name,
+        genero:game.genero,
         price:game.price = game.price - (10 /100) * game.price,
         
     }
 })
 
-const filterGames = (game => game.genero === 'horro' && game.price < 100);
+const filterGames = (game => game.genero === 'horror' && game.price < 100);
 
 const reduceGames = ((acc,valueActual) => valueActual.price + acc )
 const gamesGetDescount = games.map(addDescount)
