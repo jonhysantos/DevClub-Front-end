@@ -7,7 +7,7 @@ const games = [
     {name:'Allan wake',genero:'horror',price:350},
 ]
 
-
+// Aplicar 10% de desconto em todos os jogos
 const getDescount = (item => {
     return {
         name:item.name,
@@ -16,9 +16,11 @@ const getDescount = (item => {
     }
 })
 
+// Filtrar apenas jogos de survivor horror e abaixo de 100 reais
 const filterGames = (item => item.genero === 'horror' && item.price < 100)
+// Mostrar o valor total de jogos abaixo de 100
 const reduceGames = ((acc,item) => item.price + acc )
-
+// Aplicar map,filter e reduce no novo array.
 const mapGames = games.map(getDescount).filter(filterGames).reduce(reduceGames,0)
 
 console.log(mapGames)
