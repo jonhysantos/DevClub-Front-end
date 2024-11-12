@@ -19,9 +19,9 @@ const games = [
     {name:'Sillent hill 2 Remake',price:250,version:'Playstation 5'},
 ]
 
-const getDescount = games.filter(item => {
+const filterGames = games.filter(item => {
     return item.price < 100
 })
 
 console.log(games);
-console.log(getDescount);
+console.log(filterGames);
