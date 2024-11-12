@@ -5,5 +5,4 @@ export const games = [
     {name:'The last of us part 2',src:'./img/the-last-of-us-part2-remaster.jpg',genero:'Survivor horror',price:222},
     {name:'God of war Ragnarok',src:'./img/god-of-war-ragnarok.jpg',genero:'Aventura',price:349.9},
     {name:'Horizon Forbidden west',src:'./img/horizon-forbidden-west.jpg',genero:'Aventura',price:238}
-
 ]
