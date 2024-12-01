@@ -1,0 +1,13 @@
+{
+    "name": "Jonhy",
+    "age": 36,
+    "children": null,
+    "hobbies": ["Academia","filmes","Séries"],
+    "married":false,
+    "company": {
+        "jonhy's entertainment":{
+            "funded":2024,
+            "colaborations": 1
+        }
+    }
+}
