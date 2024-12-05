@@ -1,0 +1,56 @@
+/*
+    -Display flex
+                                                
+
+
+                                             
+                                             /row
+                                           / row-reverse
+                            Flex-Direction - colunm
+                                           \ column-reverse
+
+
+
+                Flex-box /
+    Flex-Box /
+             \
+
+
+
+
+                Flex-itens
+
+
+
+
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container{
+    display: flex; /*aqui no container aplicamos o display flex*/
+    flex-direction: row-reverse; /* fica em linha reversa*/
+    margin: 10px;
+    border: 1px solid #9758a6;
+}
+
+.block{
+    width: 100px; 
+    height: 100px;
+    background-color: #cdd728;
+    border: 5px solid #9758a6;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}

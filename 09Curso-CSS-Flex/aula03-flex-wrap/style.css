@@ -1,0 +1,62 @@
+/*
+    -Display flex
+                                                
+
+
+                                             
+                                             /
+                                           / 
+                            Flex-Direction - 
+                                           \ 
+                            
+                                       /   nowrap
+                             Flex-wrap -    wrap
+                                       \     wrap-reverse
+
+
+
+                Flex-box /
+    Flex-Box /
+             \
+
+
+
+
+                Flex-itens
+
+
+
+
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container{
+    display: flex; /*aqui no container aplicamos o display flex*/
+    flex-direction: row; /* fica tudo em linha*/
+    flex-wrap: wrap; /* Ele quebra a linha se a largura width for menor*/
+    margin: 10px;
+    border: 1px solid #9758a6;
+    width: 200px;
+}
+
+.block{
+    width: 100px; 
+    height: 100px;
+    background-color: #cdd728;
+    border: 5px solid #9758a6;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}

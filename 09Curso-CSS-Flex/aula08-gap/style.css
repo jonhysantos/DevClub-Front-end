@@ -1,0 +1,91 @@
+/*
+    -Display flex
+                                                
+
+
+                                             
+                                             /
+                                           / 
+                            Flex-Direction - 
+                                           \ 
+                            
+                                       /   
+                             Flex-wrap -    
+                                       \     
+                                       
+                                       /   
+                            Flex-flow- 
+                                      \
+                                              / 
+                                             / 
+                            justify-content / 
+                                            \ 
+                                            \ 
+
+            Flex-container  /             
+                                          /
+                            \align-itens/ 
+                                        \
+
+                                           / 
+                                          /  
+                                         / 
+                            align-content\ 
+                                          \ 
+                                          \ 
+
+                            gap - px
+                                          
+
+
+    Flex-Box /
+             \
+
+
+
+
+                Flex-itens
+
+
+
+
+
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container{
+    display: flex; /*aqui no container aplicamos o display flex*/
+    flex-direction: row;
+    justify-content: center; /* alinhou ao centro*/
+    margin: 10px;
+    border: 1px solid #9758a6;
+    width: 900px;
+    height: 900px;
+    gap: 20px; /*Da um espaço entre os itens*/
+}
+
+/*
+    main-axis => eixo principal
+    cross-axis => eixo secundario
+*/
+
+.block{
+    width: 100px; 
+    height: 100px;
+    background-color: #cdd728;
+    border: 5px solid #9758a6;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+}
