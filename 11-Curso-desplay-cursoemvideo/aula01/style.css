@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    background-color: green;
+    color: white;
+
+}
+
+.item{
+    background-color: blue;
+    flex: auto;
+    border: 1px solid black;
+
+}
