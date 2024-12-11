@@ -7,20 +7,17 @@
 
 .container {
     display: flex;
-    flex-flow: row nowrap; /*flex-direction: row // flex-wrap: wrap */
-    justify-content:space-around;
-    height: 800px;
+    height: 300px;
+    flex-flow: row nowrap;
+    justify-content: space-around;
     align-items: center;
     background-color: green;
     color: white;
-
 }
 
 .item{
     background-color: blue;
     border: 1px solid black;
-    width: 300px;
-    height: 400px;
     padding: 20px;
     text-align: center;
     
