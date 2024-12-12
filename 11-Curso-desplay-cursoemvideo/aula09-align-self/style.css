@@ -8,12 +8,32 @@
 .container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
-    align-content: center; /*So funciona com wrap como wrap ou wrap-reverse*/
+    justify-content: flex-start;
+    align-items: start;
     background-color: green;
     height: 400px;
     color: white;
 
+}
+
+div#A{
+   align-self: auto;
+}
+
+div#B{
+    align-self: flex-start;
+}
+
+div#C{
+   align-self: flex-end;
+}
+
+div#D{
+    align-self: center;
+}
+
+div#E{
+    align-self: stretch;
 }
 
 .item{

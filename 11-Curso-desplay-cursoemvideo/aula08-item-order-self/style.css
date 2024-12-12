@@ -8,12 +8,23 @@
 .container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
-    align-content: center; /*So funciona com wrap como wrap ou wrap-reverse*/
+
     background-color: green;
     height: 400px;
     color: white;
 
+}
+
+div#A{
+    order: 1;
+}
+
+div#B{
+    order: -2;
+}
+
+div#C{
+    order: -5;
 }
 
 .item{
