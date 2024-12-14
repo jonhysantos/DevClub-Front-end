@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: green;
+    height: 200px;
+    color: white;
+
+}
+
+.item{
+    background-color: blue;
+    border: 1px solid black;
+    padding: 40px;
+    flex-basis: 150px;
+
+}
